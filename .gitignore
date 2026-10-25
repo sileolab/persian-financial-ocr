@@ -1,0 +1,30 @@
+﻿# Environment and secrets
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Local data
+data/input/*
+!data/input/.gitkeep
+data/output/*
+!data/output/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+data/ground_truth/*
+!data/ground_truth/.gitkeep
+
+# Databases and logs
+*.db
+*.sqlite3
+*.log
+
+# IDE
+.idea/
+.vscode/
